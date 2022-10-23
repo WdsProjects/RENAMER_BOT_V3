@@ -71,9 +71,9 @@ async def send_doc(client,message):
        c_time = time.time()
        
        if buy_date==None:
-           LIMIT = 350
+           LIMIT = 0
        else:
-           LIMIT = 50
+           LIMIT = 0
        then = used_date+ LIMIT
        left = round(then - c_time)
        conversion = datetime.timedelta(seconds=left)
