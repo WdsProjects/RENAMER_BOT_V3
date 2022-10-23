@@ -1,9 +1,8 @@
 {
     "name": "Renamer Bot",
     "description": "Telegram File Renamer Bot ",
-    "logo": "https://graph.org/file/91ab4b346dddd0652958c.jpg",
     "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT",
+    "repository": "https://github.com/WdsProjects/RENAMER_BOT_V3",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
@@ -18,7 +17,7 @@
             "value": "",
             "required": false 
         },
-        "BOT_TOKEN": {
+        "TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
@@ -31,13 +30,12 @@
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "pyro-botz",
+            "value": "Rename_Bot",
             "required": false
         },
-        "START_PIC": {
-            "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
-            "value": "",
-            "required": false
+        "LOG_CHANNEL": {
+            "description": "Channel Id Nedd Store Files Get Your channel id from Rose @MarieNews",
+            "value": ""
         }
     },
     "buildpacks": [
